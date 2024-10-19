@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background: #352f59;
+  overflow: auto; /* Change this to 'auto' to allow scrolling */
+}
+
+.TwitterHeart {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-image: url(https://abs.twimg.com/a/1446686284/img/t1/web_heart_animation.png);
+  background-position: 0 0;
+  cursor: url("https://image.flaticon.com/icons/png/128/593/593388.png"), auto;
+}
+
+.TwitterHeart:hover {
+  background-position: -2800px 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace; /* Apply the font here */
+}
